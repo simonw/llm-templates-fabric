@@ -9,6 +9,9 @@ Load LLM templates from Fabric
 
 ## Installation
 
+> [!WARNING]
+> Experimental alpha! See [llm/issues/809](https://github.com/simonw/llm/issues/809) for details. This depends on an alpha version of LLM.
+
 Install this plugin in the same environment as [LLM](https://llm.datasette.io/).
 ```bash
 llm install llm-templates-fabric
