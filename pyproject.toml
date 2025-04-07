@@ -1,6 +1,6 @@
 [project]
 name = "llm-templates-fabric"
-version = "0.1a0"
+version = "0.1"
 description = "Load LLM templates from Fabric"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
@@ -10,7 +10,7 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 dependencies = [
-    "llm==0.24a0",
+    "llm>=0.24",
     "httpx"
 ]
 
