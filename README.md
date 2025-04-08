@@ -18,8 +18,8 @@ llm install llm-templates-fabric
 This plugin adds a template loader with the `f:` prefix that loads templates from the [Fabric repository](https://github.com/danielmiessler/fabric).
 
 ```bash
-# Use a Fabric template with LLM
-llm -t f:explain explain_code
+# Use a Fabric template with LLM. In this example, we use the [summarize pattern](https://github.com/danielmiessler/fabric/tree/main/patterns/summarize) for the Wikipedia Application software page.
+llm -t f:summarize -f https://en.wikipedia.org/wiki/Application_software
 ```
 
 The plugin looks for templates in the Fabric repository's `patterns/` directory. For example, the command above will load from:
