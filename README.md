@@ -19,7 +19,7 @@ This plugin adds a template loader with the `f:` prefix that loads templates fro
 
 ```bash
 # Use a Fabric template with LLM
-llm -t f:explain explain_code
+cat utils.py | llm -t f:explain_code
 ```
 
 The plugin looks for templates in the Fabric repository's `patterns/` directory. For example, the command above will load from:
