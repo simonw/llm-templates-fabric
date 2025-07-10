@@ -17,8 +17,8 @@ def fabric_template_loader(template_path: str) -> Template:
     template_name = template_path.strip()
 
     # Build URLs for system and user prompts
-    system_url = f"https://raw.githubusercontent.com/danielmiessler/fabric/main/patterns/{template_name}/system.md"
-    user_url = f"https://raw.githubusercontent.com/danielmiessler/fabric/main/patterns/{template_name}/user.md"
+    system_url = f"https://raw.githubusercontent.com/danielmiessler/Fabric/main/data/patterns/{template_name}/system.md"
+    user_url = f"https://raw.githubusercontent.com/danielmiessler/Fabric/main/data/patterns/{template_name}/user.md"
 
     system_content = None
     user_content = None
