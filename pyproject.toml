@@ -1,6 +1,6 @@
 [project]
 name = "llm-templates-fabric"
-version = "0.2"
+version = "0.2.1"
 description = "Load LLM templates from Fabric"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
